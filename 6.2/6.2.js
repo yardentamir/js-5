@@ -1,7 +1,7 @@
 (function () {
   "use strict";
   const people = ["Greg", "Mary", "Devon", "James"];
-  const arrayFunc = (people) => {
+  const arrayFunc = () => {
     for (const i of people) {
       console.log(i);
     }
@@ -25,5 +25,5 @@
     console.log(withBob);
   };
 
-  console.log(arrayFunc(people));
+  console.log(arrayFunc());
 })();
