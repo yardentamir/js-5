@@ -4,8 +4,5 @@
 
   const populationPercentages = () => {
     const percentages = [];
-    for (const pl of populations) {
-      
-    }
   };
 })();
