@@ -8,8 +8,4 @@
   const isArray = Array.isArray(objectToArrOnlyValues);
   const copyArrWontEffect = [...objectToArrOnlyValues];
   const copyArrEffect = objectToArrOnlyValues;
-
-  copyArrWontEffect.push("he");
-  copyArrEffect.push("bhe");
-  console.log(objectToArrOnlyValues);
 })();
